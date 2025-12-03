@@ -1,0 +1,14 @@
+model:
+  model_type: lundnet5
+
+num_epochs: 30
+batch_size: 256
+train_fraction: 0.8     # 70% train
+val_fraction: 0.1  
+device: cuda    # 15% validation
+optimizer:
+  lr: 0.001
+
+scheduler:
+  step_size: 10
+  gamma: 0.1
