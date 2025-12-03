@@ -16,4 +16,4 @@ Code for creating JSON files that looks like this
 starting from HepMC files, perhaps from the generator. To compile, modify CMakeLists.txt with paths to your fastjet and fjcontrib libraries.
 To run after compiling, simply do
 
-    ./LundNetjsons < path to HepMC >
+    ./LundNetjsons path to HepMC
